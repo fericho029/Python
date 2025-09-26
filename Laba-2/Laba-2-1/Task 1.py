@@ -1,4 +1,4 @@
-text = input("Введите текст");
+text = input("Введите текст: ");
 words = text.split();
 
 word_count ={};
@@ -7,4 +7,7 @@ for word in words:
 
 unique_words_count = len(word_count);
 
-print(word_count, "\nКоличество уникальных слов: ", unique_words_count);
+print();
+for word in word_count:
+    print (f"{word}: {word_count.get(word)}")
+print("\nКоличество уникальных слов: ", unique_words_count);
