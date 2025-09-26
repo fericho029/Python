@@ -1,5 +1,6 @@
-Name = input("Name");
-Surname = input("Surname");
-SecName = input("SecName");
+Name = input("Name: ");
+Surname = input("Surname: ");
+SecName = input("SecName: ");
 
-print ("Ваше ФИО: ", Name, Surname, SecName);
+initials = Surname[0] + ". " + SecName[0] + ".";
+print ("Ваше ФИО: ", Name, initials);
