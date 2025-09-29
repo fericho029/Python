@@ -21,7 +21,7 @@ min_num = min(numbers)
 
 print(f"1. Уникальные числа: {unique}")
 print(f"2. Повторяющиеся числа: {duplicates}")
-print(f"3. Четные числа: {chet} Нечетные числа: {nechet}")
+print(f"3. Четные числа: {chet} \nНечетные числа: {nechet}")
 print(f"4. Отрицательные числа: {negative}")
 print(f"5. Числа с плавающей точкой: {floats}")
 print(f"6. Сумма чисел, кратных 5: {sum}")
