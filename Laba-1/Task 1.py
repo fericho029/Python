@@ -1,6 +1,5 @@
-Name = input("Name: ");
-Surname = input("Surname: ");
-SecName = input("SecName: ");
+Name = input("Name: ")
+Surname = input("Surname: ")
+SecName = input("SecName: ")
 
-initials = Surname[0] + ". " + SecName[0] + ".";
-print ("Ваше ФИО: ", Name, initials);
+print(f"Ваше ФИО: {Name}, {Surname[0]}. {SecName[0]}. ")
