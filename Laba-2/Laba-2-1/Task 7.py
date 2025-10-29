@@ -1,4 +1,4 @@
-str_input = sorted(input("Введите строку: "))
+str_input = input("Введите строку: ")
 compressed = ""
 count = 1
 
