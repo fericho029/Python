@@ -16,9 +16,10 @@ def flatten_list(lst):
         if x not in result:
             result.append(x)
     return sorted(result)
- 
 
-list_a = [1, 2, 3, [4, 3, 1], 5, [6, [7, [10], 8, [9, 2 ,3]]]]
-print(f"Исходный список: {list_a}")
+
+user_input = input("Введи строку \nПример: ( [1, 2, [3, 5], 6] )\n")
+list_a = eval(user_input)
+print(f"Исходный список: {list_a}")  
 flatten_list(list_a)
 print(f"Уникальный список: {flatten_list(list_a)}")
