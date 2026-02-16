@@ -1,0 +1,113 @@
+# Python кэш файлы
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+*.cover
+*.py,cover
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+.python-version
+
+# Виртуальное окружение
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+venv_*/
+.env/
+.venv_*/
+pythonenv*/
+
+# IDE файлы
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.pydevproject
+.settings/
+*.sublime-*
+
+# Данные и выходные файлы
+*.xlsx
+*.xls
+*.csv
+*.data
+*.db
+*.sqlite
+*.sqlite3
+
+# Сгенерированные изображения
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.pdf
+
+# Логи
+*.log
+*.log.*
+logs/
+*.logs/
+
+# Временные файлы
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# Архивы
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Дополнительные игнорирования для анализа данных
+# (если данные будут в подпапке data)
+data/
+!data/README.md
+datasets/
+!datasets/README.md
+
+# Секреты и конфигурации
+.env
+*.key
+*.pem
+*.crt
+config.local.py
+
+# Документация
+docs/_build/
+site/
+
+# Директории с отчетами
+reports/
+!reports/.gitkeep
+
+# Тестовые данные
+test_data/
+sample_data/
+temp_data/
